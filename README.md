@@ -17,13 +17,24 @@ El objetivo de acortar codico solo es acerlo a travez de un boton o con la posib
 
 
   Primero tenemos git clone que es para clonar de github a una carpeta local, en el programa tiene el valor .1
+
+
     ```
         git clone
     ```
 
   Confirmamos los cambios que se le an echo al proyecto
+
+
     ```
         git add .
+    ```
+  
+  Documentamos el cambio que se realizo
+
+  
+    ```
+        git commit -m ""
     ```
 
 
