@@ -23,13 +23,15 @@ El objetivo de acortar codico solo es acerlo a travez de un boton o con la posib
         git clone
     ```
 
-  Confirmamos los cambios que se le an echo al proyecto y los subimos
+  Para guardar cambios y subir usamos se registraron los siguientes comandos
 
 
     ```
         git add .
 
         git commit -m ""
+
+        git push
     ```
 
   Si no estas en la rama root puedes seguir los siguientes comandos  
