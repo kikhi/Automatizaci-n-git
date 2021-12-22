@@ -34,7 +34,7 @@ El objetivo de acortar codico solo es acerlo a travez de un boton o con la posib
         git push
     ```
 
-  Si no estas en la rama root puedes seguir los siguientes comandos  
+  Si no estas en la rama main puedes seguir los siguientes comandos  
   
     ```
         git init

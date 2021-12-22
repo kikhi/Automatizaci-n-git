@@ -1,0 +1,15 @@
+C:\Users\catg_\Desktop\Git\Automatizacion-git\bin\Debug\net6.0\Auto-Git.exe
+C:\Users\catg_\Desktop\Git\Automatizacion-git\bin\Debug\net6.0\Auto-Git.deps.json
+C:\Users\catg_\Desktop\Git\Automatizacion-git\bin\Debug\net6.0\Auto-Git.runtimeconfig.json
+C:\Users\catg_\Desktop\Git\Automatizacion-git\bin\Debug\net6.0\Auto-Git.dll
+C:\Users\catg_\Desktop\Git\Automatizacion-git\bin\Debug\net6.0\ref\Auto-Git.dll
+C:\Users\catg_\Desktop\Git\Automatizacion-git\bin\Debug\net6.0\Auto-Git.pdb
+C:\Users\catg_\Desktop\Git\Automatizacion-git\obj\Debug\net6.0\Auto-Git.csproj.AssemblyReference.cache
+C:\Users\catg_\Desktop\Git\Automatizacion-git\obj\Debug\net6.0\Auto-Git.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\catg_\Desktop\Git\Automatizacion-git\obj\Debug\net6.0\Auto-Git.AssemblyInfoInputs.cache
+C:\Users\catg_\Desktop\Git\Automatizacion-git\obj\Debug\net6.0\Auto-Git.AssemblyInfo.cs
+C:\Users\catg_\Desktop\Git\Automatizacion-git\obj\Debug\net6.0\Auto-Git.csproj.CoreCompileInputs.cache
+C:\Users\catg_\Desktop\Git\Automatizacion-git\obj\Debug\net6.0\Auto-Git.dll
+C:\Users\catg_\Desktop\Git\Automatizacion-git\obj\Debug\net6.0\ref\Auto-Git.dll
+C:\Users\catg_\Desktop\Git\Automatizacion-git\obj\Debug\net6.0\Auto-Git.pdb
+C:\Users\catg_\Desktop\Git\Automatizacion-git\obj\Debug\net6.0\Auto-Git.genruntimeconfig.cache
