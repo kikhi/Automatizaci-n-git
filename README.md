@@ -4,14 +4,14 @@
 Este programa esta desarrollado para que a travez de una inspeccion rapida el programador pueda ejecutar los comandos de git en solo dos clicks elijiendo acciones
 
 
-## Empezando
+### Empezando
   
   - Basta con solo descargar el repositorio y abrirlo en un editor de codigo
   - El codigo esta creado en c#
   - Por el momento el programa no te mete a tu cuenta por lo que ese paso lo debes hacer manualmente
 
 
-## Tutorial
+### Tutorial
 
 El objetivo de acortar codico solo es acerlo a travez de un boton o con la posibilidad de hacerlo mediante voz en una vercion futura
 
@@ -37,5 +37,21 @@ El objetivo de acortar codico solo es acerlo a travez de un boton o con la posib
         git commit -m ""
     ```
 
+  Si no estas en la rama root puedes seguir los siguientes comandos  
+  
+    ```
+        git init
 
-## Documentacion de la arquitectura
+        git add .
+
+        git commit -m "first commit"
+
+        git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+
+        git push -u origin main
+
+        git branch -m master main
+    ```
+  
+
+### Documentacion de la arquitectura
