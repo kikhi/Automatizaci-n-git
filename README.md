@@ -52,3 +52,4 @@ El objetivo de acortar codico solo es acerlo a travez de un boton o con la posib
   
 
 ### Documentacion de la arquitectura
+Aplicacion de consola, se comunica directamente con los procesos de cmd.
