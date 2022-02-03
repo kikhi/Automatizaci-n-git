@@ -80,14 +80,22 @@ static void cambiarRama()
 
 static void Manual()
 {
-
+    Console.WriteLine("- EL automatizador git es para programadores novatos que hablan español ya que los guiara en los procesos");
+    Console.WriteLine("- Clonara subira cambios y permitira cambiar de rama");
+    Console.WriteLine("- Recuerda que al trabajar en equipo no se trabaja en la rama principal, cada uno tiene la suya propia");
+    Console.WriteLine("- El main es para el producto final");
+    Console.WriteLine("");
+    Console.WriteLine("");
+    Console.WriteLine("");
+    Console.ReadKey();
+    Menu();
 }
 
 static void Menu()
 {
     int menu;
 
-    Console.WriteLine("Bienvenido al git automatico");
+    Console.WriteLine("========Bienvenido al git automatico========");
     Console.WriteLine("|------------------------------------|");
     Console.WriteLine("|1.- Clonar                          |");
     Console.WriteLine("|2.- Subir cambios                   |");
@@ -101,19 +109,19 @@ static void Menu()
     switch(menu)
     {
         case 1:
-            Console.WriteLine("Clonar");
+            Console.WriteLine("========Clonar========");
             Clonar();
             break;
         case 2:
-            Console.WriteLine("Subir cambios");
+            Console.WriteLine("========Subir cambios========");
             subirCambios();
             break;
         case 3:
-            Console.WriteLine("Cambiar main");
+            Console.WriteLine("========Cambiar main========");
             cambiarRama();
             break;
         case 4:
-            Console.WriteLine("Manual");
+            Console.WriteLine("========Manual========");
             Manual();
             break;
         case 5:
