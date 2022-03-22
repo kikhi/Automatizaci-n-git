@@ -88,10 +88,10 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
         public void Manual()
         {
-            Console.WriteLine("- EL automatizador git es para programadores novatos que hablan español ya que los guiara en los procesos");
-            Console.WriteLine("- Clonara subira cambios y permitira cambiar de rama");
-            Console.WriteLine("- Recuerda que al trabajar en equipo no se trabaja en la rama principal, cada uno tiene la suya propia");
-            Console.WriteLine("- El main es para el producto final");
+            Console.WriteLine("- The automation git will guide you in your task");
+            Console.WriteLine("- This app, let you clone, upload changes and change branches");
+            Console.WriteLine("- Remember, when you work in team need make your own branch for work");
+            Console.WriteLine("- The main branch is for the final product");
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("");
