@@ -95,10 +95,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine("- This app, let you clone, upload changes and change branches");
             Console.WriteLine("- Remember, when you work in team need make your own branch for work");
             Console.WriteLine("- The main branch is for the final product");
-            Console.WriteLine("");
-            Console.WriteLine("");
-            Console.WriteLine("");
-            return "Fin del manual";
+            return "End Manual";
         }
     }
 
