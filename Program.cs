@@ -15,7 +15,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
         private string? commentChanges;
 
 
-        public void Clone()
+        public string Clone()
         {
             Process cmd = new Process();
 
@@ -33,9 +33,10 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine(cmd.StandardOutput.ReadToEnd());
             Console.ReadKey();
             Console.Clear();
+            return "Clone completed";
         }
 
-        public void UploadChanges()
+        public string UploadChanges()
         {
             Process cmd = new Process();
 
@@ -56,9 +57,10 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine(cmd.StandardOutput.ReadToEnd());
             Console.ReadKey();
             Console.Clear();
+            return "Fin del manual";
         }
 
-        public void ChangeBranch()
+        public string ChangeBranch()
         {
             Process cmd = new Process();
 
@@ -84,9 +86,10 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine(cmd.StandardOutput.ReadToEnd());
             Console.ReadKey();
             Console.Clear();
+            return "Change completed";
         }
 
-        public void Manual()
+        public string Manual()
         {
             Console.WriteLine("- The automation git will guide you in your task");
             Console.WriteLine("- This app, let you clone, upload changes and change branches");
@@ -95,7 +98,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("");
-            Console.ReadKey();
+            return "Fin del manual";
         }
     }
 
@@ -105,14 +108,14 @@ namespace MyApp // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             Controller controller = new Controller();
-            
+            string? result = null;
             while(controller.MenuSelector != 5)
             {
                 Console.WriteLine("========    Git Automation    ========");
                 Console.WriteLine("|------------------------------------|");
                 Console.WriteLine("|1.- Clone                           |");
-                Console.WriteLine("|2.- Upload changes                   |");
-                Console.WriteLine("|3.- Change branch                     |");
+                Console.WriteLine("|2.- Upload changes                  |");
+                Console.WriteLine("|3.- Change branch                   |");
                 Console.WriteLine("|4.- Manual                          |");
                 Console.WriteLine("|5.- Exit                            |");
                 Console.WriteLine("|------------------------------------|");
@@ -122,16 +125,20 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 switch (controller.MenuSelector)
                 {
                     case 1:
-                        controller.Clone();
+                        result = controller.Clone();
+                        Console.WriteLine(result);
                         break;
                     case 2:
-                        controller.UploadChanges();
+                        result = controller.UploadChanges();
+                        Console.WriteLine(result);
                         break;
                     case 3:
-                        controller.ChangeBranch();
+                        result = controller.ChangeBranch();
+                        Console.WriteLine(result);
                         break;
                     case 4:
-                        controller.Manual();
+                        result = controller.Manual();
+                        Console.WriteLine(result);
                         break;
                     case 5:
                         Console.WriteLine("Good bye");

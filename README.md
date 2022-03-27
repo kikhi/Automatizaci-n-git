@@ -1,55 +1,54 @@
-# Automatización Git
+
+# Git Automation
+
+_Git commands automation, cross plataform_
+
+## Get Started 🚀
+
+_Download for update your git projects fast_
+
+### Pre-requisites and builded with 📋 🛠️
+
+* [.net 6](https://dotnet.microsoft.com/en-us/download) - dotnet 6.0.1
+* [git](https://git-scm.com/) - For branching
+* [vs code](https://code.visualstudio.com/) - For code edit
+
+_System info_
+
+```
+dotnet add package System.Diagnostics.DiagnosticSource --version 6.0.0
+```
+
+### Instalation 🔧
+
+_Download on zip or clone_
+
+_You can also upgrade the project cloning the repository or download in a zip_
+```
+git clone https://github.com/kikhi/ATM.git
+```
+
+### Run and Testing ⌨️
+
+_For run project use the fallow command_
+```
+dotnet run
+```
+
+## Deploy 📦
+
+_Use the follow comand for build project_
+
+```
+dotnet build
+```
+
+_Then you can publish the project or take the .exe for personal use_
+
+## Licence 📄
+
+This project is for free use - See the licence [LICENSE.md](LICENSE.md) for more details
 
 
-Este programa esta desarrollado para que a travez de una inspeccion rapida el programador pueda ejecutar los comandos de git en solo dos clicks elijiendo acciones
-
-
-### Empezando
-  
-  - Basta con solo descargar el repositorio y abrirlo en un editor de codigo
-  - El codigo esta creado en c#
-  - Por el momento el programa no te mete a tu cuenta por lo que ese paso lo debes hacer manualmente
-
-
-### Tutorial
-
-El objetivo de acortar codico solo es acerlo a travez de un boton o con la posibilidad de hacerlo mediante voz en una vercion futura
-
-
-  Primero tenemos git clone que es para clonar de github a una carpeta local, en el programa tiene el valor .1
-
-
-    ```
-        git clone
-    ```
-
-  Para guardar cambios y subir usamos se registraron los siguientes comandos
-
-
-    ```
-        git add .
-
-        git commit -m ""
-
-        git push
-    ```
-
-  Si no estas en la rama main puedes seguir los siguientes comandos  
-  
-    ```
-        git init
-
-        git add .
-
-        git commit -m "first commit"
-
-        git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
-
-        git push -u origin main
-
-        git branch -m master main
-    ```
-  
-
-### Documentacion de la arquitectura
-Aplicacion de consola, se comunica directamente con los procesos de cmd.
+---
+Made by [kikhi](https://github.com/kikhi) 😊
